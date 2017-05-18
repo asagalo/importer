@@ -1,0 +1,19 @@
+{
+    "name": "asagalo/importer",
+    "type": "library",
+    "require": {
+        "vindi/vindi-php": "^1.0",
+        "pimple/pimple": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "Vindi\\Importer\\": "src/"
+        }
+    },
+    "scripts": {
+      "test": "./vendor/bin/phpunit"
+    }
+}
